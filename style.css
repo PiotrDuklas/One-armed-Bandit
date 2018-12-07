@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 5vh auto 0;
+    font-family: 'open sans', roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.game {
+    display: flex;
+    margin: 20px auto;
+    width: 60%;
+    justify-content: center;
+
+}
+
+.game div {
+    height: 20vh;
+    width: 20vh;
+    margin: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.play {
+    text-align: center;
+}
+
+.play input {
+    height: 10vh;
+    font-size: 20px;
+    width: 200px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.play button {
+    width: 200px;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.play button:hover {
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.panel {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.score ul {
+    max-width: 640px;
+    height: 31vh;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
+
+.score li {
+    margin: 15px auto;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.one {
+    background-image: url(img/one.png);
+}
+
+.two {
+    background-image: url(img/two.png);
+}
+
+.three {
+    background-image: url(img/three.png);
+}
+
+.four {
+    background-image: url(img/four.png);
+}
+
+.five {
+    background-image: url(img/five.png);
+}
+
+.six {
+    background-image: url(img/six.png);
+}
