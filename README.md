@@ -1,2 +1,2 @@
-# OneArmedBandit
+# oneArmedBandit
 Simple game
