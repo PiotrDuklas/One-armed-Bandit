@@ -1,2 +1,2 @@
-# One-armed-Bandit
+# OneArmedBandit
 Simple game
